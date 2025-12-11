@@ -1,0 +1,186 @@
+.two-col {
+grid-template-columns: auto;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    padding-bottom: 20px;
+}
+/* NAVBAR CONTAINER */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  /* <-- THIS aligns logo + menu on same line */
+    padding: 20px 0;      /* gives equal spacing */
+}
+
+/* LOGO */
+.logo img {
+    height: 80px;   /* adjust size if needed */
+    margin: 0;      /* remove the huge 60px margin */
+}
+
+/* NAV LINKS */
+.nav-links {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    margin: 0;
+    padding: 0;     /* REMOVE that 80px padding */
+}
+
+nav a {
+    color: #111;
+    text-decoration: none;
+    font-size: 18px;
+}
+.body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0 20px;
+    background-color: #f4f4f4;
+}
+.main-title {
+    font-family: "cc-highjinkies-open", sans-serif;
+font-weight: 400;
+font-style: normal;
+font-size: 48px;
+text-align: center;
+margin-top: 20px;
+margin-bottom: 10px;        
+color: #f10000f4;
+padding-bottom: 30px;
+}
+
+.text-block {
+    max-width: 800px;
+    margin: 0 auto 40px auto;
+    padding: 20px;
+}
+h2.nextsec {
+    font-family: "cc-highjinkies-open", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 36px;
+    color: #f10000f4;
+    margin-bottom: 20px;
+    text-align: center;
+}
+p {
+   grid-template-columns: max-content;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333;
+    display: flex;
+    max-width: 800px; /* control how wide the text block is */
+    margin: 0 auto;   /* centers it horizontally */
+    text-align: center; /* optional: centers the text */
+    padding: 20px; /* makes it look clean */
+
+
+}
+img-block img {
+  align-items: center;
+}
+.gallery {
+ grid-template-columns: auto auto auto;
+    display:grid;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.two-column {
+  display: flex;
+  gap: 10rem;
+  align-items: flex-start;
+}
+.two-col {
+  display: flex;
+  gap: 10rem;
+  align-items: flex-start;
+}
+
+
+.col-image img {
+    
+  max-width: 100%;
+  height: auto;
+  display: block;
+
+}
+.col-image {
+  margin-top: 160px; 
+}
+img-block {
+    display: grid;
+    flex-direction: column;
+    gap: 20px;
+}
+.aboutcol {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    text-align: right;
+}
+/* Contact Form Section */
+.contact-form-section {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 30px 20px;
+  text-align: center;
+}
+
+/* Form Container */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Form Groups */
+.form-group {
+  text-align: left;
+}
+
+/* Labels */
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+/* Inputs + Textarea */
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+  outline: none;
+}
+
+.contact-form textarea {
+  min-height: 150px;
+  resize: vertical;
+}
+
+/* Submit Button */
+.submit-btn {
+  background-color: #e60000; /* red */
+  color: white;
+  padding: 14px;
+  border: none;
+  border-radius: 6px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: #b80000;
+}
